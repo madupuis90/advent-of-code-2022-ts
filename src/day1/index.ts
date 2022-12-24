@@ -1,7 +1,6 @@
 import { readFileSync } from "fs";
 
-export const sample = `
-1000
+export const sample = `1000
 2000
 3000
 

@@ -1,7 +1,7 @@
 {
   "name": "advent-of-code-2022-ts",
   "version": "1.0.0",
-  "description": "Advent of code in Typescript",
+  "description": "Advent of code 2022 in Typescript",
   "scripts": {
     "start": "f() { ts-node src/day${1:-1}/index.ts; }; f",
     "test": "f() { jest src/day${1:-1}/index.test.ts; }; f",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "advent-of-code-2022-ts"
+    "url": "https://github.com/madupuis90/advent-of-code-2022-ts"
   },
   "author": "madupuis",
   "license": "ISC",

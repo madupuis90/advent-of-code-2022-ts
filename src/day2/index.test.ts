@@ -1,7 +1,11 @@
-import { add } from './index';
+import { part1, part2, sample } from "./index";
 
-describe('testing index file', () => {
-  test('empty string should result in zero', () => {
-    expect(add('')).toBe(0);
+describe("Day 2", () => {
+  test("Part 1: Return the total score of rock/paper/scissor following normal strategy", () => {
+    expect(part1(sample)).toBe(15);
+  });
+
+  test("Part 2: Return the total score of rock/paper/scissor following super secret strategy", () => {
+    expect(part2(sample)).toBe(12);
   });
 });
